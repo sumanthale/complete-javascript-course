@@ -14,8 +14,8 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  line-height: 1.5;
   background-color: #222;
+  line-height: 1.5;
 }
 
 /* LAYOUT */
@@ -154,15 +154,14 @@ h1 {
   .left {
     position: relative;
     top: 20px;
+    width: max-content;
   }
   .right {
-    /* display: block; */
     position: relative;
     left: 40px;
     width: max-content;
   }
   main {
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
